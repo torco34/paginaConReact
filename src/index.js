@@ -5,5 +5,5 @@ import HelloWorld  from './components/HelloWorld';
 
 console.log(ReactDOM )
 console.log(HelloWorld)
-console.log(document.getElementById('.app'))
-ReactDOM.render( < HelloWorld />, document.getElementById('.app'));
+console.log(document.getElementById('app'))
+ReactDOM.render( < HelloWorld />, document.getElementById('app'));
