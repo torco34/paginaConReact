@@ -1,17 +1,24 @@
-import React from 'react';
-import  '../assets/styles/components/Header.scss';
+import React, {Component} from 'react';
+import Buscador from  '../components/Buscador';
+// import  '../assets/styles/components/Header.scss';
+// import '../assets/styles/components/Header';
 
-// import '../assets/styles/App.scss'
+class Header extends Component {
+	render() {
+		return(
+			<div className="container">
+             <div className="jumbotron">
+             <p className="load text-center">Buscado de Imagenes</p>
+               <Buscador/>
+             </div>
 
-const Header = () => ( 
+			</div>
 
-	<div className="App container">
-	<div className="jumbotron">
-	<p className="lead text-center">BuscadoR de Imagenes</p>
+          
+			);
+	}
+}
+
 	
-	</div>
-	</div>
-
-);
 
 export default Header

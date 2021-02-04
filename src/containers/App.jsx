@@ -1,15 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Header from '../components/Header';
-import '../assets/styles/App.scss'
-const App = () => (
-   <div className="App">
+import Buscador from  '../components/Buscador';
+// import '../assets/styles/App.scss'
 
-   <Header/>
+class App extends Component {
+	render() {
+		return(
+           <Header /> 
+         
+           // < Buscador/>
 
+			);
 
-   </div>
+		return(
+           // <Header /> 
+         
+           < Buscador/>
 
+			);
+	}
+}
 
-	);
 
 	export default App;
