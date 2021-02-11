@@ -4,11 +4,12 @@ import Buscador from '../components/Buscador';
 // import '../assets/styles/components/Header';
 
 class Header extends Component {
+	
 	render() {
 		return(
 			<div className="container">
              <div className="jumbotron">
-             <p className="load text-center">Buscado de Imagenes</p>
+             <p className="load text-center">Buscador de Imagenes</p>
              < Buscador />
              </div>
 

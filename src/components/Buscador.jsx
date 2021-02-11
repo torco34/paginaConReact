@@ -1,19 +1,20 @@
- 
+import React from 'react';
+import Header from '../components/Header';
 
-// import React, {Component} from 'react';
+// import '../assets/styles/App.scss'
+
+const App = () => (
+ <div className="App">
+<Header/> 
+         
+    
+
+ </div>
+   
+
+  );
 
 
-//   class Buscador extends Component {
-//   render() {
-//     return( 
-
-//  <h1>Holla Work</h1>
 
 
-// );
-
-// }
-
-
-// }
-// export default Buscador
+  export default App;
