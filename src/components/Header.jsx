@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Buscador from  '../components/Buscador';
+import Buscador from '../components/Buscador';
 // import  '../assets/styles/components/Header.scss';
 // import '../assets/styles/components/Header';
 
@@ -9,7 +9,7 @@ class Header extends Component {
 			<div className="container">
              <div className="jumbotron">
              <p className="load text-center">Buscado de Imagenes</p>
-               <Buscador/>
+             < Buscador />
              </div>
 
 			</div>
