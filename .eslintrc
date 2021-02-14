@@ -4,7 +4,7 @@
     "es6": true,
     "node": true
   },
-  "extends": ["airbnb"],
+  "extends": ["prettier"],
   "globals": {
     "document": false,
     "escape": false,
@@ -19,9 +19,9 @@
   },
   "parser": "babel-eslint",
   "plugins": [
-    "react",
-    "jsx-a11y",
-    "import"
+    "plugin:prettier/recommended",
+    "prettier/react"
+   
   ],
   "rules": {
     "react/jsx-filename-extension": 0,
