@@ -1,29 +1,41 @@
 import React, { Component } from "react";
-
+import "../assets/styles/components/Header.scss";
 class Header extends Component {
 	render() {
 		return (
-			<div className="card bg-secondary">
+			<div className=" container_header">
 				<div className="row ">
 					<div className="text-center col-md-9 ">
-						<h5 className="m-3">
-							Tus{" "}
-							<mark className="btn text-white btn-primary">
+						<p className="m-3">
+							Tus
+							<mark className="mark ">
 								cambio o devulucion en tu App:
-							</mark>{" "}
-							y tambien dede tu movil o cumputador..
-						</h5>
+							</mark>
+							y tambien desde tu movil o cumputador..
+						</p>
 					</div>
 					<div className="col-md-3 ">
-						<button className=" btn  btn-primary m-3">
-							conocer mas
-						</button>
+						<button className=" btn  boton m-4">conocer mas</button>
 					</div>
-					<p className="parrafo"> Servicios Especiales de Entrega</p>
-					<p> 90 Días de cambios y/o devoluciones</p>
-					<p> Sigue tu pedido</p>
-					<p> Contáctanos</p>
-					<p> ConócenosServicio al Cliente</p>
+				</div>
+				<div className="col-md-12">
+					<ul className="lista">
+						<li>
+							<a href="">Servicios Especiales de Entrega</a>
+						</li>
+						<li>
+							<a href="">90 Días de cambios y/o devoluciones</a>
+						</li>
+						<li>
+							<a href="">Sigue tu pedido</a>
+						</li>
+						<li>
+							<a href="">Contáctanos</a>
+						</li>
+						<li>
+							<a href="">ConócenosServicio al Clientegit</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		);

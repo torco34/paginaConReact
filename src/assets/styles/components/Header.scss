@@ -1,3 +1,38 @@
-.container{
-	/*background: red;*/
+.container_header {
+	background: #ececec;
+	/*border: solid 1px red;*/
+	height: 15vh;
+}
+.mark {
+	background: #00d1d0;
+	color: #fff;
+	height: 2%;
+}
+
+.boton {
+	display: grid;
+	background: #00d1d0;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 10px;
+	cursor: pointer;
+	outline: none;
+	/*height: 20px;*/
+}
+
+.lista {
+	display: flex;
+	margin-top: -20px;
+}
+
+.lista li {
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	list-style: none;
+	font-size: 12px;
+}
+
+.lista li a {
+	color: #000;
 }
