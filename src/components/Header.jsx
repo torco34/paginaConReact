@@ -6,13 +6,13 @@ class Header extends Component {
 			<div className=" container_header">
 				<div className="row ">
 					<div className="text-center col-md-9 ">
-						<p className="m-3">
+						<h5 className="m-3">
 							Tus
 							<mark className="mark ">
 								cambio o devulucion en tu App:
 							</mark>
 							y tambien desde tu movil o cumputador..
-						</p>
+						</h5>
 					</div>
 					<div className="col-md-3 ">
 						<button className=" btn  boton m-4">conocer mas</button>
