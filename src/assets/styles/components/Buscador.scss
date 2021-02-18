@@ -3,7 +3,12 @@
 	height: 5vh;
 	margin-top: 30px;
 }
-.section_carrito img {
-	width: 40px;
+
+.section_carrito {
+	display: flex;
 	color: #000;
+}
+
+.section_carrito img {
+	width: 60px;
 }

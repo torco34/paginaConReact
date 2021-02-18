@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-
 import "../assets/styles/components/Buscador.scss";
 import carrito from "../assets/static/carritos.png";
+
 class Buscador extends Component {
 	render() {
 		return (
@@ -27,8 +27,8 @@ class Buscador extends Component {
 				</div>
 				<div className="col-md-3 section_carrito">
 					<a href="">
-						<p className="m-3">
-							Registrarce <p>ENTRAR</p>
+						<p className="m-3 text-dark">
+							Registrarces <p>ENTRAR</p>
 						</p>
 					</a>
 					<a href="">

@@ -15,7 +15,7 @@ class Header extends Component {
 						</h5>
 					</div>
 					<div className="col-md-3 ">
-						<button className=" btn  boton m-4">conocer mas</button>
+						<button className=" btn  boton m-4">Conocer mas</button>
 					</div>
 				</div>
 				<div className="col-md-12">
