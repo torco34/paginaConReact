@@ -1,23 +1,32 @@
 import React, { Component } from "react";
 import "../assets/styles/components/Header.scss";
 class Header extends Component {
+	verCompra() {
+		alert("Mostrar lo que vas a comprar");
+	}
 	render() {
 		return (
-			<div className=" container_header">
+			<div className=" container_header ">
 				<div className="row ">
-					<div className="text-center col-md-9 ">
-						<h5 className="m-3">
+					<div className="text-center col-md-9  ">
+						<h5 className="m-3 ">
 							Tus
-							<mark className="mark ">
+							<mark className="mark">
 								cambio o devulucion en tu App:
 							</mark>
 							y tambien desde tu movil o cumputador..
 						</h5>
 					</div>
 					<div className="col-md-3 ">
-						<button className=" btn  boton m-4">Conocer mas</button>
+						<button
+							className=" btn  boton m-4"
+							onClick={() => this.verCompra()}
+						>
+							Comprar
+						</button>
 					</div>
 				</div>
+
 				<div className="col-md-12">
 					<ul className="lista">
 						<li>
