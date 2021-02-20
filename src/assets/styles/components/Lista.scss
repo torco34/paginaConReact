@@ -1,5 +1,32 @@
-.container_lista ul {
+.container_lista {
+	border: solid 1px #ccc;
+	margin-top: 10px;
+	padding: 0px;
+	height: 35px;
+}
+
+.container_lista nav ul {
 	list-style: none;
-	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.container_lista nav ul li {
+	/*border: solid 1px #ccc;*/
+	height: 35px;
+}
+.container_lista nav ul li a {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	height: 35px;
+	padding: 8px;
 	color: #404040;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.container_lista a:hover {
+	background: #676767;
+	color: #fff;
 }

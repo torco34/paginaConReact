@@ -13,14 +13,15 @@ class Buscador extends Component {
 					<div className="text-center">
 						<form action="">
 							<input
-								type="text"
+								type="search"
 								className="form_Buscar"
 								placeholder="Buscar por producto"
 							/>
+
 							<input
 								type="submit"
-								className="btn  btn-dark"
-								valua="Buscar..."
+								className="btn btn-dark"
+								value="Buscar"
 							/>
 						</form>
 					</div>
