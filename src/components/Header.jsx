@@ -8,27 +8,27 @@ class Header extends Component {
 		return (
 			<div className=" container_header ">
 				<div className="row ">
-					<div className="text-center col-md-9  ">
-						<h5 className="m-3 ">
-							Tus
-							<mark className="mark">
-								cambio o devulucion en tu App:
-							</mark>
-							y tambien desde tu movil o cumputador..
-						</h5>
+					<div className="text-center col-md-9 mark ">
+						<h6 className="m-3 text-center">
+							<strong className="text-dark container-fluid lg">
+								<u className="lg">ENVIOS DIA SIGUIENTE</u>
+							</strong>{" "}
+							en Cali, Yonbo, Medillin Sabaneta, Enviga Itagui, La
+							Estrella por $ 12000
+						</h6>
 					</div>
-					<div className="col-md-3 ">
+					<div className="col-md-3 mark ">
 						<button
-							className=" btn  boton m-4"
+							className=" btn  boton m-2"
 							onClick={() => this.verCompra()}
 						>
-							Comprar
+							conoce mas
 						</button>
 					</div>
 				</div>
 
 				<div className="col-md-12">
-					<ul className="lista">
+					<ul className="lista text-center">
 						<li>
 							<a href="">Servicios Especiales de Entrega</a>
 						</li>

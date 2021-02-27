@@ -1,17 +1,19 @@
 .container_header {
 	background: #ececec;
-	/*border: solid 1px red;*/
-	height: 15vh;
+	font-size: 0px;
+	max-height: 15vh;
+	max-width: 100%;
 }
 .mark {
-	background: #00d1d0;
-	color: #fff;
-	height: 2%;
+	background: #01d3b6;
+	color: #000;
+	height: 50px;
+	/*height: 10%;*/
 }
 
 .boton {
 	display: grid;
-	background: #00d1d0;
+	background: #000;
 	border-radius: 20px;
 	color: #fff;
 	font-size: 12px;
@@ -22,7 +24,7 @@
 
 .lista {
 	display: flex;
-	margin-top: -20px;
+	margin-top: 20px;
 }
 
 .lista li {
@@ -30,7 +32,7 @@
 	justify-content: center;
 	margin: 10px;
 	list-style: none;
-	font-size: 12px;
+	font-size: calc(0.7vw + 0.6vh);
 }
 
 .lista li a {
