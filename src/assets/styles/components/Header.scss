@@ -3,12 +3,20 @@
 	font-size: 0px;
 	max-height: 15vh;
 	max-width: 100%;
+	text-decoration: none;
+}
+
+.container_header a {
+	text-decoration: none;
 }
 .mark {
 	background: #01d3b6;
 	color: #000;
-	height: 50px;
+	/*height: 50px;*/
 	/*height: 10%;*/
+}
+.container {
+	background: #01d3b6;
 }
 
 .boton {

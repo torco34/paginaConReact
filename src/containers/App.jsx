@@ -6,14 +6,18 @@ import Formulario from "../components/Formulario";
 import useInitialState from "../hooks/useInitialState";
 import "../assets/styles/App.scss";
 // La API esta en esta constate
-// Es una api que no he descagado 'no me pare importate
+// const API = "http://localhost:3000/useInitialState";
+
+// Es una api que no he descagado. 'no me pare importate
 // en este proyecto, el nocemiento y la y el entender si'
-const API = "http://localhost:3000/useInitialState";
 
 const App = () => {
 	return (
 		<div className="App">
-			<Header />
+			<Header
+				parrafoH4="ENVIOS GRATIS"
+				parrafh4="por compras mayor a $75000"
+			/>
 			<Buscador />
 			<Lista />
 			<Formulario />

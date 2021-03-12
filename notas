@@ -1,0 +1,32 @@
+ La API esta en esta constate
+ const API = "http://localhost:3000/useInitialState";
+
+Es una api que no he descagado. 'no me pare importate
+en este proyecto, el nocemiento y la y el entender si'
+
+
+
+En esta parte va la funcion que esta en el archivo dentro de carpeta hooks
+const useInitialState = useInitialState(API);
+DE esta form se puede utilizar la variable cuando la necitamo en cada componete 
+no la utilizo poreuq en este proyecto no lo nececitos
+
+
+	// NOTA :
+	// dentro de return se utiloza asi/
+	{/*en return video.length === 0 ? <h1>length...<h1> :(*/}
+      {/*<div className="App">*/
+			<Header />
+			<Buscador />
+			{useInitialState.mylista.length > 0 &&
+				<categoria/>
+				etc
+
+			}
+       
+
+		)}
+			<Lista />
+			<Formulario />
+		</div>
+		)*/}
