@@ -26,27 +26,25 @@ class Header extends Component {
 							className=" btn  boton m-2"
 							onClick={() => this.verCompra()}
 						>
-							FREESHIPPIN
+							{this.props.bottonComprar}
 						</button>
 					</div>
 					<div className="col-md-12">
 						<ul className="lista text-center">
 							<li>
-								<a href="">Servicios Especiales de Entrega</a>
+								<a href="">{this.props.servicioLink}</a>
 							</li>
 							<li>
-								<a href="">
-									90 Días de cambios y/o devoluciones
-								</a>
+								<a href="">{this.props.diaLink}</a>
 							</li>
 							<li>
-								<a href="">Sigue tu pedido</a>
+								<a href=""> {this.props.sigueLink}</a>
 							</li>
 							<li>
-								<a href="">Contáctanos</a>
+								<a href="">{this.props.contsctoLink}</a>
 							</li>
 							<li>
-								<a href="">ConócenosServicio al Clientegit</a>
+								<a href="">{this.props.conocerLink}</a>
 							</li>
 						</ul>
 					</div>

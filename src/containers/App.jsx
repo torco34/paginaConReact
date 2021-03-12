@@ -17,6 +17,12 @@ const App = () => {
 			<Header
 				parrafoH4="ENVIOS GRATIS"
 				parrafh4="por compras mayor a $75000"
+				bottonComprar="Comprar"
+				servicioLink="Servicios Especiales de Entrega"
+				diaLink="90 Días de cambios y/o devoluciones"
+				sigueLink="Sigue tu pedido"
+				contsctoLink="Contáctanos"
+				conocerLink="ConócenosServicio al Clientegi"
 			/>
 			<Buscador />
 			<Lista />
