@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+
 import "../assets/styles/components/Header.scss";
+import carrito from "../assets/static/carritos.png";
+
 class Header extends Component {
-	verCompra() {
-		alert("Mostrar lo que vas a comprar");
-	}
 	render() {
 		return (
 			<div className="container_header">
@@ -22,10 +22,7 @@ class Header extends Component {
 						</a>
 					</div>
 					<div className="col-md-3 mark  ">
-						<button
-							className=" btn  boton m-2"
-							onClick={() => this.verCompra()}
-						>
+						<button className=" btn  boton m-2">
 							{this.props.bottonComprar}
 						</button>
 					</div>
@@ -53,4 +50,5 @@ class Header extends Component {
 		);
 	}
 }
+
 export default Header;

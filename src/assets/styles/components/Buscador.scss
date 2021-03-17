@@ -1,3 +1,20 @@
+.lista {
+	display: flex;
+	margin-top: 20px;
+}
+
+.lista li {
+	display: grid;
+	justify-content: center;
+	margin: 10px;
+	list-style: none;
+	font-size: calc(0.7vw + 0.6vh);
+}
+
+.lista li a {
+	color: #000;
+}
+
 .form_Buscar {
 	width: 60%;
 	height: 5vh;
@@ -18,3 +35,4 @@
 .section_carrito img {
 	max-width: 60px;
 }
+/*section de la lista*/
