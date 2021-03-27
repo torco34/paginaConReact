@@ -8,7 +8,7 @@ class Header extends Component {
 		return (
 			<div className="container_header">
 				<div className="row ">
-					<div className=" col-md-9 container">
+					<div className=" col-md-9 containeres">
 						<a href="" className="text-center ">
 							<h4 className="">
 								<span className="fw-bold  word-spacing text-dark">
